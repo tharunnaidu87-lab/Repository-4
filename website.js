@@ -1,3 +1,3 @@
-document.getElementById('helloBtn').addEventListener('click', () => {
-    alert('Hello! Thanks for clicking the button.');
-});
+function showGreeting() {
+  document.getElementById("greeting").innerText = "Hello! Have a great day!";
+}
